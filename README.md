@@ -6,6 +6,12 @@ Docker image for autumated testing with Chrome and NodeJS.
 
 ## Usage
 
+### Docker Pull Command
+
+```
+docker pull zhangyuan/docker-chromedriver-node821
+```
+
 ### NVM and NodeJS
 
 NVM is not actived by default, load it by running the following command:

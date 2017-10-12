@@ -1,6 +1,6 @@
 FROM debian:stretch
 
-RUN apt-get update && apt-get install -y git-core zlib1g-dev libssl-dev build-essential libxml2-dev libxslt-dev curl libreadline-dev unzip xvfb
+RUN apt-get update && apt-get install -y git-core zlib1g-dev libssl-dev build-essential libxml2-dev libxslt-dev curl libreadline-dev unzip xvfb ttf-wqy-zenhei
 
 RUN CHROMEDRIVER_VERSION=`curl -sS chromedriver.storage.googleapis.com/LATEST_RELEASE` && \
     mkdir -p /opt/chromedriver-$CHROMEDRIVER_VERSION && \
